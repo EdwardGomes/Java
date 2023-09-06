@@ -1,12 +1,8 @@
 public class Worker {
 
-    private String name;
-    private String dateOfBirth;
+    private final String name;
+    private final String dateOfBirth;
     protected String endDate;
-
-    // Construtor padrão
-    public Worker() {
-    }
 
     // Construtor com parâmetros
     public Worker(String name, String dateOfBirth) {
