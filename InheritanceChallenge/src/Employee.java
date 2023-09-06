@@ -4,7 +4,6 @@ public class Employee extends Worker{
     private final String hireDate;
     private static int employeeNumber = 1;
 
-
     public Employee(String name, String dateOfBirth, String hireDate) {
         super(name, dateOfBirth);
         this.employeeId = Employee.employeeNumber++;
